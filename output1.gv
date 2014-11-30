@@ -1,0 +1,27 @@
+graph G {
+// nodes
+a;
+b;
+c;
+d;
+e;
+f;
+g;
+h;
+i;
+// edges
+a -- b [label="4",color=blue];
+a -- h [label="8",color=blue];
+b -- c [label="8",style=dotted];
+b -- h [label="11",style=dotted];
+c -- d [label="7",color=blue];
+c -- f [label="4",color=blue];
+c -- i [label="2",color=blue];
+d -- e [label="9",color=blue];
+d -- f [label="14",style=dotted];
+e -- f [label="10",style=dotted];
+f -- g [label="2",color=blue];
+g -- i [label="6",style=dotted];
+g -- h [label="1",color=blue];
+h -- i [label="7",style=dotted];
+}
